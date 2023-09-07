@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+$font: 'Montserrat', sans-serif;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #ddd0c8;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.users{
+    .container{
+        .users__wrapper{
+            .users__title{
+                font-size: 72px;
+                font-family: $font;
+                color: #fff;
+                display: flex;
+                font-weight: 600;
+                justify-content: center;
+            }
+
+            .users__cards{
+                display: flex;
+                margin-top: 80px;
+                flex-wrap: wrap;
+                gap: 20px;
+                .user__card{
+                    width: 400px;
+                    height: 300px;
+                    background-color: #fff;
+                    border-radius: 15px;
+                    display: flex;
+                    padding: 30px;
+                    justify-content: center;
+                    flex-direction: column;
+                    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+                    &:hover{
+                        transition: 0.3s;
+                        box-shadow: -10px 10px 0px 2px rgba(34, 60, 80, 1);
+                    }
+
+                    .name__info{
+                        margin-bottom: 50px;
+                        .name{
+                            font-size: 22px;
+                            font-weight: 600;
+                            font-family: $font;
+                        }
+    
+                        .nickname{
+                            font-size: 13px;
+                            color: rgb(161, 51, 51);
+                            font-weight: 600;
+                            font-family: $font;
+                        }
+                    }
+
+                    .info{
+                        font-family: $font;
+                        font-size: 18px;
+                        a{
+                            font-family: $font;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .buttons{
+                        display: flex;
+                        gap: 20px;
+                        margin-top: 20px;
+                        align-items: center;
+                        justify-content: center;
+                        button{
+                            padding: 10px;
+                            font-family: $font;
+                            font-weight: 700;
+                            color: #fff;
+                            border: none;
+                            border-radius: 10px;
+                            background: rgb(206, 215, 224);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
