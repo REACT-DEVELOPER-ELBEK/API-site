@@ -16,8 +16,8 @@ async function showUsers(){
 
         <div class="buttons">
             <button><a href="./pages/posts.html">Posts</a></button>
-            <button><a href="#">Todos</a></button>
-            <button><a href="#">Album</a></button>
+            <button><a href="./pages/todos.html">Todos</a></button>
+            <button><a href="./pages/albums.html">Album</a></button>
         </div>
     </div>
         `

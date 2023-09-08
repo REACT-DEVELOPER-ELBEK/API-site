@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #ddd0c8;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.todos .container .todos__wrapper .todos__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 64px;
+}
+.todos .container .todos__wrapper .todos__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+.todos .container .todos__wrapper .todos__cards .todos__card {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  padding: 30px;
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.todos .container .todos__wrapper .todos__cards .todos__card h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+.todos .container .todos__wrapper .todos__cards .todos__card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  margin-top: 15px;
+}/*# sourceMappingURL=todoa.css.map */

@@ -2,7 +2,7 @@ async function showUsersPosts(){
     const response = await fetch("https://jsonplaceholder.typicode.com/posts")
     const results = await response.json()
     let str = ''
-    results.map((user) => {
+    results.map((user = user.filter(target.id)) => {
         str+=`
         <div class="posts__card">
         <h1>${user.body}</h1>
